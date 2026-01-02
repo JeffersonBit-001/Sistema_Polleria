@@ -1,0 +1,366 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 13 abr. 2024, 02:35:58
+    Author     : JEFFERSON
+*/
+body{
+    margin: 0;
+}
+
+.class_article_body{
+    display: block;
+    background-color: white;
+    padding: 5rem;
+    border-top-style: inset;
+    border-radius: 10px;
+    margin-top: 60px;
+    
+
+}
+
+.display_body_content{
+    display: flex;
+    margin-top: 80px;
+}
+
+.flex_class{
+    width: 15%;
+    text-align: justify;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+    padding: 0 1.5rem;
+    border-radius: 10px;
+    margin-right: 3%;
+    
+}
+
+.flex_class2{
+    width: 100%;
+    border-top: solid;
+    border-top-style:groove;
+    border-color: black;
+    border-radius: 5px;
+}
+
+#registro_public{
+    position: relative;
+    color:white;
+}
+
+
+
+#class_2_content_Action{
+    display: flex;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.flex_content_label_input{
+    padding-right: 80px;
+}
+
+.flex_div_content{
+    padding:10px;
+}
+
+label{
+    font-size: 18px;
+    text-shadow: 1px 3px 3px gray;
+}
+
+.input_form{
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #cfcfcf;
+    width: 290px;
+    height: 20px;
+}
+
+
+.input_form2{
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #cfcfcf;
+    width: 294px;
+    height: 22.5px;
+    text-align: center;
+}
+
+.input_form3{
+    margin-top: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #cfcfcf;
+    width: 296px;
+    height: 26px;
+}
+
+.input_form:hover{
+    outline: none;
+    border-color: #004A8C;
+}
+
+.input_form2:hover{
+    outline: none;
+    border-color: #004A8C;
+}
+.input_form3:hover{
+    outline: none;
+    border-color: #004A8C;
+}
+
+#crear_login2{
+    margin-left: 10%;
+    background: -webkit-radial-gradient(#4B0082,#DDA0DD);;
+}
+
+.datos_text{
+    height: 40px;
+    font-size: 20px;
+    text-shadow:0px 3px 4px gray;
+    margin-bottom: 0;
+}
+
+.button_crear_login{
+    font-size: 40px;
+    background: -webkit-radial-gradient(#004A8C,#F6F6F6);
+    border-style: none;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+
+.button_crear_login:hover{
+    box-shadow: 0px 2px 13px 7px #004A8C;
+    transition: all 0.8s linear;
+}
+
+#formulario_boyd{
+    text-align: center;
+    font-size: 55px;
+    text-shadow: 1px 5px 6px gray;
+}
+
+#div_letras_condicion{
+    font-size: 18px;
+    
+}
+
+.recibir_publicidad_condiciones{
+    padding-bottom: 5px;
+}
+
+
+/*checkbox ver pass*/
+.checkbox_content{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    top: 7px;
+}
+
+.checkbox_content input[type="checkbox"] {
+    display: none;
+}
+
+@media only screen and (max-width:1510px){
+    .flex_content_label_input{
+        display: flex;
+    }
+
+    #class_2_content_Action{
+        display: inline-block;
+    }
+
+    .flex_div_content{
+        margin-right: 20%;
+    }
+
+
+}
+
+@media only screen and (max-width:1160px){
+    .display_body_content{
+        display: block;
+        text-align: center;
+        
+    }
+    .flex_class2{
+        width: 90%;
+        border-style: none;
+    }
+    .flex_class{
+        width: 90%;
+        text-align: center;
+
+
+    }
+
+    .flex_div_content{
+        text-align: justify;
+    }
+
+
+}
+
+#crear_login2{
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+}
+
+@media only screen and (max-width:1000px){
+
+
+    .flex_content_label_input{
+        display: block;
+    }
+    .text_label_form{
+        font-size: 25px;
+        
+    }
+
+    .flex_class2{
+        width: 90%;
+        padding: 0;
+        text-align: justify;
+    }
+
+    .input_form{
+        width: 300%;
+        background-color: white;
+        text-decoration: none;
+        border-style: none;
+        border-bottom: solid;
+        margin-top: 10px;
+        outline: none;
+    }
+
+
+    .input_form2{
+        width: 300%;
+        background-color: white;
+        text-decoration: none;
+        border-style: none;
+        border-bottom: solid;
+        margin-top: 10px;
+        outline: none;
+    }
+
+    .input_form3{
+        width: 300%;
+        background-color: white;
+        text-decoration: none;
+        border-style: none;
+        border-bottom: solid;
+        margin-top: 10px;
+        outline: none;
+    }
+
+    .display_body_content{
+        width: 90%;
+    }
+
+    .flex_div_content{
+        margin-bottom:15%;
+    }
+
+    
+}
+
+
+@media only screen and (max-width:880px){
+    .input_form{
+        width: 240%;
+    }
+
+    .input_form2{
+        width: 240%;
+    }
+
+    .input_form3{
+        width: 240%;
+    }
+
+    .flex_div_content{
+        margin-bottom:15%;
+    }
+    
+}
+
+@media only screen and (max-width:736px){
+    .input_form{
+        width: 220%;
+    }
+
+    .input_form2{
+        width: 220%;
+    }
+
+    .input_form3{
+        width: 220%;
+    }
+
+    .flex_div_content{
+        margin-bottom:15%;
+    }
+    
+}
+
+@media only screen and (max-width:600px){
+    .input_form{
+        width: 200%;
+    }
+
+    .input_form2{
+        width: 200%;
+    }
+
+    .input_form3{
+        width: 200%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .class_article_body{
+        padding: 0 7%;
+    }
+
+    #formulario_boyd{
+        margin-top: 60px;
+        font-size: 30px;
+        
+    }
+
+    .display_body_content{
+        margin: 0;
+        margin-top: 40px;
+    }
+
+    #registro_public{
+        font-size: 15px;
+    }
+    .datos_text{
+        font-size: 18px;
+    }
+    .flex_div_content div label{
+        font-size: 18px;
+
+    }
+
+    #div_letras_condicion{
+        font-size: 13px;
+    }
+
+    #crear_login{
+        font-size: 20px;
+    }
+}
